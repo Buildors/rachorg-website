@@ -14,7 +14,7 @@ export const pages = [
     heading: "We see the value in everyone.",
     background: "/assets/about.webp",
     body: `<section class="content-section narrow">
-      <p class="lead">As our acronym <span class="gold">RACH</span> states, we see the value in everyone.</p>
+      <p class="lead"><span class="gold">RACH</span> stands for <strong>Recognizing the Achievements and Contributions to Humanity.</strong></p>
       <p>We are driven by the desire to recognize and support those who dedicate their lives to seeing beyond themselves, those who impact others in their communities or the world at large.</p>
       <p>Our success isn’t measured in terms of wealth or profit margin, but by the appreciation shown to those we support.</p>
       <p>Learn more about RACH's mission and vision by subscribing to our mailing list.</p>

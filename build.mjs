@@ -2,16 +2,18 @@ import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { pages } from "./src/content.mjs";
+import { profilePages } from "./src/profiles/index.mjs";
 import { renderPage } from "./src/template.mjs";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
+const allPages = [...pages, ...profilePages];
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 await cp(join(root, "public"), dist, { recursive: true });
 
-for (const page of pages) {
+for (const page of allPages) {
   const destination = page.path === "/"
     ? join(dist, "index.html")
     : join(dist, page.path.slice(1), "index.html");
@@ -21,7 +23,7 @@ for (const page of pages) {
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map((page) => `  <url><loc>https://rachorg.org${page.path}</loc></url>`).join("\n")}
+${allPages.filter((page) => !page.draft).map((page) => `  <url><loc>https://rachorg.org${page.path}</loc></url>`).join("\n")}
 </urlset>\n`;
 await writeFile(join(dist, "sitemap.xml"), sitemap, "utf8");
 
@@ -36,4 +38,4 @@ const notFoundPage = {
 };
 await writeFile(join(dist, "404.html"), renderPage(notFoundPage), "utf8");
 
-console.log(`Built ${pages.length} pages in ${dist}`);
+console.log(`Built ${allPages.length} pages in ${dist}`);
