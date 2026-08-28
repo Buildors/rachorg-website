@@ -1,6 +1,6 @@
 # RACH Profiles — editorial plan
 
-Status: Active weekly series — pilot approved for publication
+Status: Active weekly series — pilot published
 
 Last updated: August 28, 2026
 
@@ -219,4 +219,4 @@ The editorial owner explicitly authorized publication of the Demis Hassabis prof
 
 No interview or fact-check request was sent to Hassabis or any associated organization. The published article must therefore continue to identify itself as an independent public-record biography that is neither authorized by nor endorsed by the subject. This documented pilot exception does not remove right-of-reply review from the standard workflow for future profiles, especially where adverse, disputed, private, or high-risk claims are proposed.
 
-The remaining release step is operational: build and validate the site, publish through the existing Cloudflare Pages production pipeline, then verify the canonical hub, article, portrait, structured data, indexability, and sitemap. Publication is complete only after those public checks pass.
+The pilot was published through the existing Cloudflare Pages production pipeline on August 28, 2026. The canonical hub, article, portrait, structured data, indexability, sitemap, `www` route, and deployment route were verified after release. The exact commit and deployment identifiers are retained in the profile claim ledger.

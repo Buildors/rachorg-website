@@ -1,6 +1,6 @@
 # Demis Hassabis profile — claim ledger
 
-Profile status: **Approved to publish — production verification pending**
+Profile status: **Published and production-verified August 28, 2026**
 
 Verification cutoff: **August 28, 2026**
 
@@ -59,4 +59,12 @@ Codes: F = verified fact; A = attributed claim; AN = RACH analysis; P = predicti
 - [x] Record that no subject interview or fact-check outreach was requested or sent; disclose the independent public-record basis in the article.
 - [x] Receive explicit publication authorization and assign August 28, 2026 as the publication date.
 - [x] Remove the draft and noindex state and prepare the release build.
-- [ ] Verify the canonical production page, image, metadata, sitemap, and Cloudflare production deployment after release.
+- [x] Verify the canonical production page, image, metadata, sitemap, and Cloudflare production deployment after release.
+
+## Release verification
+
+- Git commit: `3f60a3e` — `Publish RACH Profiles and Demis Hassabis biography`
+- Cloudflare Pages production deployment: `6f3ecb7a-c991-4491-b236-3033819eddce`
+- Canonical hub: [https://rachorg.org/profiles/](https://rachorg.org/profiles/)
+- Canonical biography: [https://rachorg.org/profiles/demis-hassabis/](https://rachorg.org/profiles/demis-hassabis/)
+- Verified August 28, 2026: HTTP 200 on canonical, `www`, and deployment routes; portrait served as JPEG; publication and licensed-image structured data present; no draft or `noindex` marker; both public routes present in the sitemap; live visual check found no browser console errors.
