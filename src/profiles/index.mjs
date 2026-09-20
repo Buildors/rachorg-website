@@ -1,6 +1,7 @@
 import { demisHassabis } from "./demis-hassabis.mjs";
+import { davidSinclair } from "./david-sinclair.mjs";
 
-export const profiles = [demisHassabis];
+export const profiles = [davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -12,9 +13,9 @@ const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
 const profileCards = profiles.map((profile) => `<article class="profile-card">
   <div class="profile-card-media">
     <a class="profile-card-image" href="${profile.path}" aria-label="Read the ${profile.title} profile">
-      <img src="${profile.image}" alt="${profile.imageAlt}" width="1920" height="2879" loading="lazy">
+      <img src="${profile.image}" alt="${profile.imageAlt}" width="${profile.imageWidth || 1920}" height="${profile.imageHeight || 2879}" loading="lazy">
     </a>
-    <p class="profile-card-image-credit">Photo: <a href="${profile.imageSource}" target="_blank" rel="noreferrer">${profile.imageCreator} (<span class="creator-handle">${profile.imageCreatorAccount}</span>) / Wikimedia Commons</a> — <a href="${profile.imageLicenseUrl}" target="_blank" rel="license noreferrer">${profile.imageLicense}</a>; cropped and slightly desaturated for display.</p>
+    <p class="profile-card-image-credit">Photo: <a href="${profile.imageSource}" target="_blank" rel="noreferrer">${profile.imageCreator} (<span class="creator-handle">${profile.imageCreatorAccount}</span>) / Wikimedia Commons</a> — <a href="${profile.imageLicenseUrl}" target="_blank" rel="license noreferrer">${profile.imageLicense}</a>. ${profile.imageDisplayNote}</p>
   </div>
   <div class="profile-card-copy">
     <p class="profile-card-meta">${profile.category}${profile.draft ? " · Editorial draft" : ` · Published ${formatDate(profile.datePublished)}`}</p>
@@ -40,7 +41,7 @@ export const profilesHub = {
   image: demisHassabis.image,
   imageAlt: demisHassabis.imageAlt,
   body: `<section class="content-section profiles-introduction">
-    <p class="lead">One person. One life story. Every week.</p>
+    <p class="lead">One person. One life story. A daily pursuit.</p>
     <p class="profile-mission-statement"><span>RACH</span> stands for <strong>Recognizing the Achievements and Contributions to Humanity.</strong> Through RACH Profiles, we explain what each person contributed, who helped make it possible, why the work matters, and what remains unfinished.</p>
     <p>RACH Profiles explores the people shaping artificial intelligence, technology, construction, and the science of longer, healthier lives. We begin with admiration, then follow the evidence—through formative experiences, pivotal choices, setbacks, collaborators, measurable impact, criticism, and the work still unfinished.</p>
     <div class="profile-pill-row" aria-label="Profile categories">
@@ -53,7 +54,7 @@ export const profilesHub = {
   <section class="profiles-collection" aria-labelledby="profiles-heading">
     <div class="profiles-collection-inner">
       <div class="section-heading">
-        <p class="eyebrow">The first profile</p>
+        <p class="eyebrow">The profiles</p>
         <h2 id="profiles-heading">A life is more than a résumé.</h2>
         <p>Every feature includes a rights-cleared profile picture, a visible reason for recognition, a reporting cutoff, a source record, and a clear distinction between demonstrated results and future ambition.</p>
       </div>
