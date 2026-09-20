@@ -2,7 +2,7 @@
 
 Reporting cutoff: September 20, 2026. Subject selected explicitly by Jordan; daily website publication authorized September 18. Category: Longevity and Biotechnology. Next category after verified publication: Artificial Intelligence. Mary-Claire King remains unpublished in the queue.
 
-Status: Release prepared; not yet production-verified. No interview, outreach, image request, social post, purchase, or DNS change performed. Research, writing, and internal checks are AI-assisted; no claim of a separate human scientific review.
+Status: Published and production-verified September 20, 2026 at 15:08 UTC. No interview, outreach, image request, social post, purchase, or DNS change performed. Research, writing, and internal checks are AI-assisted; no claim of a separate human scientific review.
 
 ## Publication scope and starting state
 
@@ -73,4 +73,7 @@ Impact 12/20 (research rather than demonstrated human treatment); narrative18/20
 - Screenshot evidence: `/private/tmp/rach-local-desktop-intro.png`, `/private/tmp/rach-local-mobile-intro.png`, `/private/tmp/rach-local-desktop-current.png`, `/private/tmp/rach-local-mobile-hub.png`, and corresponding sources screenshots. QA runner: `/private/tmp/rach-profile-qa.mjs`.
 - External link HTTP check: no 404/410. Publisher anti-bot restrictions returned 403 for sources14,23,29 and PubMed returned203; contents/records had been retrieved through research search/open earlier. These are access restrictions, not claims that every full text is available. Cell reply/correction limitations remain disclosed.
 - Immediately before release, institutional/company role pages and latest company news rechecked; registry remains recruiting with no posted results; live sitemap still contains only Demis. No duplicate publication today.
-- Release commit and production verification pending. Do not mark published until live checks pass.
+- Release commit: `eba36d6`, pushed to existing `main` Git-connected Cloudflare workflow. Production deployment: `55b81f28-b9f9-4921-9b8b-19702fbfb5b7`.
+- Live article: https://rachorg.org/profiles/david-sinclair/ . Canonical, www variant and deployment URL returned HTTP 200 with the correct article title. Existing Demis profile remains HTTP 200.
+- Production desktop and mobile QA passed: 3,728 narrative words, 36 sources, loaded portrait, no horizontal overflow, valid fragment targets, expected metadata and both Profiles hub entries, no page errors. Production introduction visually inspected. Evidence: `/private/tmp/rach-production-desktop-intro.png` and corresponding mobile, current-work, sources and hub screenshots.
+- Live sitemap includes Sinclair and Demis. Live portrait returns `image/jpeg` and matches the original SHA-256 above. Verification completed at `2026-09-20T15:08:47Z`. One new biography published today; next category is Artificial Intelligence.
