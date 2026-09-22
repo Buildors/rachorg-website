@@ -1,6 +1,6 @@
 # Yoshua Bengio — publication record and claim ledger
 
-Reporting cutoff: September 22, 2026. Status: internally checked; production verification pending.
+Reporting cutoff: September 22, 2026. Status: published and production-verified.
 
 ## Authority, selection, and duplicate controls
 
@@ -69,4 +69,11 @@ Demonstrated impact16/20; narrative19/20; relevance15/15; original angle12/15; e
 
 ## Release
 
-Pending final live duplicate/current-role check, scoped release commit, existing Cloudflare Git-connected deployment, and production verification. Do not mark published based on this draft ledger alone.
+- Final live duplicate check and official roles/latest newsroom recheck passed at2026-09-22T15:14:19Z. Only Sinclair and Hassabis were live before release; latest listed LawZero release remainedSept16.
+- Scoped release commit `bfc0d59`, pushed to existingGitHub`main` pipeline. Included prior local Sinclair verification-only commit; no unrelated asset directory included.
+- Cloudflare Pages production deployment `ab024b14-8be3-405a-9293-097bab9734e0`, source`bfc0d59`, https://ab024b14.rachorg-website.pages.dev . No infrastructure changes.
+- Live article https://rachorg.org/profiles/yoshua-bengio/ verifiedHTTP200 with correct title/content. Canonical without slash, www variant, and deployment route also200.
+- First public probe404 during deployment; first browser navigation timed out. Retried after deployment with explicitDOM/image checks; both desktop/mobilePASS,3643words,34sources, all fragments and metadata, no horizontal overflow or runtime errors. All three hub portraits decoded successfully. No failed attempt treated as a completed publication.
+- Sitemap includes new biography. Existing Sinclair and Hassabis routes200. Portrait servedimage/jpeg with matchingSHA256`8f17da9c768680442a7d36b8135649bd4ba5c7027ad53b62abe3e4879fea77e5`.
+- Production screenshots `/private/tmp/bengio-production-*`; desktop introduction and mobile full hub visually inspected. QA runner `/private/tmp/rach-bengio-qa.mjs`.
+- Canonical verification completed2026-09-22T15:25:13Z; www/deployment checks subsequently passed. Exactly one new biography published thisAmerica/New_Yorkday. Next category:Technology. No X or other social post.
