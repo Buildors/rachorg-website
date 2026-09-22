@@ -1,7 +1,8 @@
 import { demisHassabis } from "./demis-hassabis.mjs";
 import { davidSinclair } from "./david-sinclair.mjs";
+import { yoshuaBengio } from "./yoshua-bengio.mjs";
 
-export const profiles = [davidSinclair, demisHassabis];
+export const profiles = [yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
