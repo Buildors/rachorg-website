@@ -1,6 +1,6 @@
 # Brewster Kahle — research and publication record
 
-Reporting cutoff: September 24, 2026. Category: Technology. Status: Prepared for publication; NOT YET production-verified. Standing daily website-publication authorization applies. No outreach, interview, image request, purchase, social posting, account setup, or infrastructure change is authorized or performed.
+Reporting cutoff: September 24, 2026. Category: Technology. Status: PUBLISHED and production-verified September 24, 2026, at 15:23 UTC. Standing daily website-publication authorization applies. No outreach, interview, image request, purchase, social posting, account setup, or infrastructure change performed in this run.
 
 ## Selection and quota
 
@@ -74,4 +74,8 @@ Demonstrated impact18/20; narrative depth18/20; relevance14/15; angle13/15; evid
 
 - Final narrative4015words (3872prose excluding headings);37sources. Build/check passed again; desktop/mobile QA rerun PASS with final source count.
 - Immediately before release, all three existing live profiles returned200 with dates2026-08-28,2026-09-20,2026-09-22; no new profile today. Role refreshed through authenticated public profile. Remote main unchanged at `bfc0d590719249ed4de2bef6d68c7b300cad7f07`.
-- Publication submission and actual production verification pending. Do not claim published until canonical article, portrait, hub, metadata and sitemap checks succeed.
+- Publication commit `dfc525a` pushed successfully to existing production `main`. Cloudflare production deployment `46845b7e-6b5a-487a-ac5f-e98dac8685bf` identifies that source commit.
+- Production desktop1440×1000 and mobile390×844 browser QA PASS:4015words,37sources, portrait, metadata, anchors, hub, no page errors or horizontal overflow. Production intro screenshots visually inspected in both layouts.
+- Canonical article, portrait, hub, sitemap, all three earlier profiles, www article, and deployment-specific article returned200. Sitemap includes the new profile. Public portrait SHA256 matches the rights-record original exactly.
+- Raw HTML differs because existing Cloudflare email protection rewrites mailto links and injects its decoding script. After normalizing only those transformations, public HTML matches local built HTML exactly; no article content drift. Verification completed `2026-09-24T15:23:36.453Z`.
+- No X post or other external distribution performed. Unrelated untracked `assets/` preserved. Next category: Construction and the Built Environment.
