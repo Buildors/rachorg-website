@@ -3,8 +3,9 @@ import { davidSinclair } from "./david-sinclair.mjs";
 import { yoshuaBengio } from "./yoshua-bengio.mjs";
 import { brewsterKahle } from "./brewster-kahle.mjs";
 import { shigeruBan } from "./shigeru-ban.mjs";
+import { katalinKariko } from "./katalin-kariko.mjs";
 
-export const profiles = [shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+export const profiles = [katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
