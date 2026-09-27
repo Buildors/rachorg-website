@@ -1,6 +1,6 @@
 # Katalin Karikó — September 27, 2026 daily publication
 
-Status: Final checks passed; publication authorized, production verification pending.
+Status: Published and production verified September 27, 2026.
 
 ## Authority and selection
 
@@ -70,4 +70,14 @@ Source numbers correspond to `src/profiles/katalin-kariko.mjs`.
 - Scientific primary abstracts rechecked through EuropePMC; birth1955/Szolnok and plain-language mRNA explanation verified against downloaded Nobel PDF. Source12 publisher credit corrected before publication.
 - Final prepublication daily quota check: allfive existing profiles return200 with dates Aug28,Sept20,Sept22,Sept24,Sept25. No Sept27 publication. Current production Pages deployment9fbf760c, sourcea7414d1, branchmain confirmed. Installation Wrangler4.137.0; no package install needed.
 - Final narrative count4,103 words; build/check and desktop/mobile QA rerun passed after final additions. Roles at Penn, Szeged, Repeat and registry last-update field re-fetched successfully at2026-09-27T15:15:05–18Z. Ready for scoped commit/push. Preserve unrelated assets folder.
+
+## Production verification completed
+
+- Publication commit `55667deb9db4195854dfaad582ffa54ef1034293` pushed to origin/main using the existing Git integration. Production Pages deployment `68486e2f-e418-4a95-b3f7-9d39c0065bbd`, source55667de. No infrastructure, mail, DNS, or security configuration edits.
+- Canonical https://rachorg.org/profiles/katalin-kariko/ returned200 at2026-09-27T15:17:04Z. Initial request during deployment returned404; retry after build served the expected article. Not treated as success until actual content was available.
+- Exact narrative HTML equals local built artifact, verified at2026-09-27T15:17:30Z.4,103 narrative words,34 linked sources,Sept27 reporting/publication dates.
+- Live portrait HTTP200 image/jpeg and SHA256 equals the original licensed file. Production desktop1440×1000/mobile390×844 QA passed: no horizontal overflow or runtime errors, correct metadata/canonical/Article/Person/ImageObject/license,34 citations and valid anchors, recognition and current-work sections, all six hub cards with loaded portraits. Production introduction and mobile current-work screenshots visually inspected.
+- Live sitemap and hub list Karikó. All prior profile routes return200. Only one new biography published onSeptember27. Next primary category: Artificial Intelligence. Do not publish another person today or duplicate Karikó.
+- Screenshot evidence `/private/tmp/kariko-production-desktop-intro.png`, `/private/tmp/kariko-production-mobile-working-on-now.png`, and corresponding sources/hub/mobile-intro images. QA script `/private/tmp/rach-kariko-qa.mjs`.
+- This final audit update is a local documentation commit; no extra deployment required. Unrelated `assets/` untouched. No subject contact, purchases, social posts or X-account activity.
 - Existing Cloudflare skill and Pages/Wrangler instructions read; official Git integration docs checked. Preserve Git-triggered Pages project `rachorg-website`, branch main. No DNS/mail/security/configuration changes. Untracked `assets/` pre-existing and excluded.
