@@ -1,6 +1,6 @@
 # Fei-Fei Li — September 28, 2026
 
-Status: COMPLETE DRAFT — NOT YET PUBLISHED. 4,206 narrative words; 39 linked source records.
+Status: PUBLISHED AND PRODUCTION-VERIFIED September 28, 2026. 4,206 narrative words; 39 linked source records.
 
 Category: Artificial Intelligence, following Katalin Kariko on September 27.
 
@@ -66,3 +66,13 @@ No profile for her appears in the live six-profile sitemap checked September 28.
 - Currentrole/productpagesre-fetched2026-09-28T15:17:02–04ZHTTP200:HAI,Stanfordfaculty,Atlas,AI4ALL. Originalportraitlicense curlrecheckedafterinitialNodepatternmissedwhitespace; licensevalid. Xaccessgap remains disclosed.
 - ExistingPagesprojectrachorg-website,productionmain,currentdeployment68486e2f/source55667de. Wrangler4.137.0. Cloudflare/Pages/WranglerskillsandcurrentofficialGit/Pagesdocsread; preserveestablishedGitdeployment,noinfrastructurechanges.
 - Livequotaandsitemaprechecked15:17:01Z:6existingprofiles, noFei-FeiLi. Finaldatedprofilequota,scopedcommit/push,andproductionverificationpending.
+
+## Publication completed
+
+- Final prepublication quota: all six existing profiles HTTP200, dates August28, September20,22,24,25,27; no September28 article. Fei-Fei Li route404 before deployment. Exactly one new subject published today.
+- Publication commit `6c19a15c153808da4cf7ee9eaaa10dbf270a9ba7` pushed to origin/main. Existing Git integration created Cloudflare production deployment `fa2ff3c8-5a6c-41bf-829e-d65fd617b899`, source6c19a15, projectrachorg-website. No configuration, DNS, mail, security or hosting changes.
+- Live URL https://rachorg.org/profiles/fei-fei-li/ . Initial request15:19:37Z returned404 while deployment completed; no retry publication or duplicate push. Actual production desktop/mobile tests subsequently passed.
+- Verified2026-09-28T15:21:12Z: articleHTTP200, exact narrative HTML match with built artifact, portraitHTTP200image/jpeg and SHA256 match, sitemap entry present. Whole-article raw HTML differs only at the existing Cloudflare email-obfuscation transform. Browser check confirmed correction link correctly decodes to info@rachorg.org with subject intact.
+- Production browser checks PASS1440×1000 and390×844:4,206words,39sources,portraitloaded,attribution/license,canonical,Article/Person/ImageObject/date metadata,validanchors,nooverflow/noJSerrors,7Profiles cards. Desktopintro andmobilecurrentwork screenshots visually inspected; screenshot evidence `/private/tmp/feifei-production-*`.
+- No subject contact, purchase, interview request, social post, or X-account work. Unrelated assets/ remains untracked and untouched. Final audit is a local documentation commit only; no additional deployment needed.
+- NEXT RUN: primary category Technology. Do not duplicate Fei-Fei Li or publish a second biography on September28. Mary-Claire King remains unpublished biotechnology queue; David Sinclair alreadyliveSeptember20.
