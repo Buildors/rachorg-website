@@ -1,6 +1,6 @@
 # Radia Perlman — September 29, 2026
 
-Status: UNPUBLISHED; researched article, portrait clearance, local build and rendering checks complete. Production verification pending.
+Status: PUBLISHED AND PRODUCTION-VERIFIED September 29, 2026. Exactly one new profile published today.
 
 Title: Radia Perlman: The Engineer Who Made Networks Easier to Trust
 
@@ -76,3 +76,14 @@ SourceURLs:32HTTP200,2automated403(Atlantic/ResearchGate, bothreadableinwebresea
 - Unrelateduntrackedassets/ preserved. Stageonlynewmodule,portrait,thisledger,andprofilesindex.
 
 After successful publication, next category is Construction and the Built Environment. Anna Heringer is an unpublished prior daily choice; reverify facts and rights. Mary-Claire King remains biotechnology queue. Do not publish another September29profile.
+
+## Publication completed
+
+- Final role, interview, workshop, IETF record, and original Flickr checks returned HTTP200 at 13:33:34–35Z. Current role remained Dell Technologies Fellow; Flickr license remained CC BY-SA 2.0.
+- Final rebuild and project checks passed; desktop/mobile browser tests rerun after the citation adjustment also passed. No unrelated changes were staged.
+- Publication commit `4610ced82a7116c5117fc93358358072b01c4317` pushed to origin/main. Existing Cloudflare Git integration produced production deployment `3f4115d1-d390-4902-9ea1-b4b89ecce3dd`, source4610ced, projectrachorg-website. No direct upload or infrastructure changes.
+- Live URL: https://rachorg.org/profiles/radia-perlman/ . Initial browser check returned404 while deployment was active. No repeated publication push; the subsequent check returned200.
+- Production verification at 2026-09-29T13:36:43.883Z: exact narrative HTML matched the built artifact; portraitHTTP200,image/png,expectedSHA256; sitemap contained Radia and exactly8profile entries.
+- Actual production Playwright tests passed at1440x1000and390x844:3659words,35sources,loadedportrait,correctvisiblecredit/license,validanchors,uniqueIDs,canonical,indexability,Article/Person/ImageObject/date metadata,nooverfloworJSerrors,and8Profiles cards. Desktopintro andmobilecurrentwork screenshots visuallyinspected; evidence `/private/tmp/radia-production-*`.
+- Verification runner `/private/tmp/rach-radia-production-check.mjs`. Final publication audit saved locally without an additional deployment. Unrelated untrackedassets/ preserved; no outreach, purchases, or social activity.
+- NEXT RUN: Construction and the Built Environment. Do not publish a second September29article or duplicate Radia Perlman.
