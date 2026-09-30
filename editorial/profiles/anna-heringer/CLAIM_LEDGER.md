@@ -1,6 +1,6 @@
 # Anna Heringer — claim ledger and publication record
 
-Research date: September 30, 2026. Status: unpublished; production verification pending.
+Research date: September 30, 2026. Status: published and production-verified.
 
 ## Selection and authority
 
@@ -64,3 +64,12 @@ Original synthesis across37 records; paraphrase budgets aggregated by source. No
 - Source links:32 HTTP200;5 automated403 (MoMA two records, Goethe, Architektura & Biznes, The Plan), previously read via research access. No404 sources. Access restrictions are not represented as content changes.
 - At13:47:34–37Z rechecked official biography, news, vision, afo and original video:HTTP200; original video still explicitly Creative Commons Attribution reuse allowed. Vision still lists2027 workshop. Anna live route404, index/sitemap eight existing profiles. Immediately following local QA, all eight live article publication dates verified; none September30. No duplicate or daily-quota conflict.
 - Installed Wrangler4.137.0 verified. Publication commit/push and production verification pending.
+
+## Publication completed
+
+- Publication commit7123c69 pushed to origin/main through the existing Git integration. Cloudflare Pages production deployment97dca5fe-8724-4055-9528-e6768f7cefd6, projectrachorg-website, source7123c69. No direct upload or infrastructure changes.
+- Live URL: https://rachorg.org/profiles/anna-heringer/ . Initial check returned404 while deployment was active; waited and retried read-only without a second push.
+- Production verification2026-09-30T13:50:18.132Z: articleHTTP200, exact narrative HTML matched local build; portraitHTTP200/image/jpeg and SHA2565d1be7c6ab10e396bde9fa5e6fb7ff86bbc8412eb9da62f3a596d2422804dd09; sitemap includes Anna and exactly nine profile entries.
+- Production browser checks PASS desktop1440x1000/mobile390x844:3970words/37sources, correct portrait/credit/license, canonical/indexability, Article/Person/ImageObject/date, valid anchors/unique IDs, no overflow or JavaScript errors, nine profile cards with loaded images. Production desktop intro and mobile current-work screenshots visually inspected. Evidence /private/tmp/anna-production-*; runners /private/tmp/rach-anna-qa.mjs and /private/tmp/rach-anna-production-check.mjs.
+- Audit saved locally without another deployment. Unrelated untracked assets/ preserved. No outreach, purchases, X/social activity or changes to DNS/mail/security.
+- NEXT RUN: Longevity/Biotechnology; Mary-Claire King remains unpublished queue. Do not duplicate Anna or publish a second September30 profile.
