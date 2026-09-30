@@ -6,8 +6,9 @@ import { shigeruBan } from "./shigeru-ban.mjs";
 import { katalinKariko } from "./katalin-kariko.mjs";
 import { feiFeiLi } from "./fei-fei-li.mjs";
 import { radiaPerlman } from "./radia-perlman.mjs";
+import { annaHeringer } from "./anna-heringer.mjs";
 
-export const profiles = [radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+export const profiles = [annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
