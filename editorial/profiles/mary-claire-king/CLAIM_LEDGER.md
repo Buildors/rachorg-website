@@ -1,6 +1,6 @@
 # Mary-Claire King — claim ledger and publication record
 
-Research date: October 1, 2026. Status: UNPUBLISHED; release checks underway. Do not treat this record as production confirmation.
+Research date: October 1, 2026. Status: **PUBLISHED AND PRODUCTION-VERIFIED**. Completed at approximately 13:36–13:37 UTC (09:36–09:37 America/New_York). Do not publish another new profile on October 1.
 
 ## Selection, quota and authorization
 
@@ -74,3 +74,13 @@ Initial build 23 pages; site check 24 pages/70 files with all internal reference
 - At13:33Z rechecked all nine published profiles and dates: none October1; King route404. Current UW appointment/research, NYGC affiliation, October2 seminar and original archived image permission all HTTP200 and expected text confirmed. Latest paper title and dates checked again through indexed primary PubMed record. No newly verified preprint or personal social feed.
 - Remote main fetched: no incoming changes; one local ahead commit is yesterday's verified-production audit c8d9b44. Preserve it. Only current biography module, portrait, hub import/list and this ledger will be staged. Existing unrelated assets/ remains untracked.
 - Publication not yet verified. Record deployment and actual production results after release.
+
+### Completed publication — October 1, 2026
+
+- Live article: https://rachorg.org/profiles/mary-claire-king/ ; canonical https://rachorg.org/profiles/mary-claire-king . Title: Mary-Claire King: The Families Behind the Genetic Evidence. Category: Longevity and Biotechnology. Final narrative 3,806 words, 37 source records.
+- Publication commit **695d7a4e441f59894fbb5395ff94d30a4e0b194f**, pushed to origin/main and remote hash verified. Cloudflare Pages production deployment **33c69900-8e9f-4fad-9ede-0c6f3828241f**, project rachorg-website, source695d7a4. Git-triggered release, no direct upload or infrastructure mutation.
+- Two immediate production checks returned404 during propagation. No duplicate commit, republish or rollback was performed. Canonical and deployment URLs subsequently returned200, followed by full public checks.
+- At **2026-10-01T13:36:02.115Z**, public article HTTP200 and exact narrative HTML matched the checked local build. Public portrait HTTP200 image/jpeg with exact SHA256 ac4c85514e8ee1765768b27c1a0eee63466dc3aabaa10cc223e240529bde4a04. Sitemap contains the new canonical route and exactly10 profiles.
+- Production Playwright desktop1440x1000 and mobile390x844 both PASS: 3,806 words,37 sources, portrait decode, exact credit/permission link, current-work and recognition sections, canonical/indexability, Article/Person/ImageObject/date, working anchors, unique IDs, no overflow or JavaScript errors. Profiles hub contains10 cards and all portraits decode. Live desktop intro and mobile sources screenshots visually reviewed.
+- Source37 PMC returned HTTP200 at13:33:34Z. All specified prepublication checks completed. Unrelated assets/ unchanged and untracked.
+- This audit-only completion is recorded locally after deployment, without a redundant second production release. Next category **Artificial Intelligence**. Mary-Claire King is now excluded from future first-biography selection. No outreach, paid licensing, account setup, or social posting performed.
