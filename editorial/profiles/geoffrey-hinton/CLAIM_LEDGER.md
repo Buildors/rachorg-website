@@ -1,6 +1,6 @@
 # Geoffrey Hinton — October 2, 2026 publication record
 
-Status: UNPUBLISHED — local build passed; production release and verification pending.
+Status: PUBLISHED AND PRODUCTION-VERIFIED — October 2, 2026, 13:48:29 UTC.
 
 ## Selection and scope
 
@@ -74,3 +74,11 @@ Initial build:24pages. Check:25pages,72files,allinternalreferencesresolve. Prese
 - At13:44:36–37Z,tenlivepriorprofilesdatesverified:noneOctober2. Hintonroute404. Officialemeritusrole,newSept28paperandoriginalFlickrCCBY2license/credit recheckedHTTP200. UofT2026SRIarticle separately recheckedthroughwebreader13:45Z, confirmingUS$700000GoodVenturesandcurrentbase.
 - Gitfetch: no incomingcommits;localoneaheadc010a03isyesterday'sproductionaudit, preserved. CurrentCloudflareproduction33c69900-8e9f-4fad-9ede-0c6f3828241fsource695d7a4confirmed. UseexistingmainGit-triggereddeployment,notdirectupload.
 - Onlyfourintendedfiles:profilemodule,portrait,indeximport/list,thisledger. Unrelatedassets/untouched. Publicationnotyetverified.
+
+### Completed publication — October 2, 2026
+
+- Live article https://rachorg.org/profiles/geoffrey-hinton/ ; canonical https://rachorg.org/profiles/geoffrey-hinton . Title: Geoffrey Hinton: The Question That Would Not Leave. Category: Artificial Intelligence. Final narrative3,665words;37source records.
+- Publicationcommit **a65c212e2903abe585bede5ff6a09f40eb847bc6** pushedorigin/main; remotehashmatched. CloudflarePagesproduction **8a09abce-054d-4225-a386-94065ee596d1**, sourcea65c212, projectrachorg-website, branchmain. ExistingGit-triggeredworkflow; nohosting/DNSchanges.
+- Initialpubliccheck404duringpropagation. Waitedandretriedwithoutrepublish. At **2026-10-02T13:48:29.467Z**, publicarticleHTTP200,exactnarrativeHTMLmatchagainstlocalvalidatedbuild;portraitHTTP200andSHA25670b80925419be45bf15dfe0b0291f6d58c0069a9ef0210d6b49dd9979de0cf4bmatched.
+- ProductionPlaywrightdesktop1440x1000andmobile390x844PASS:3,665words,37sources,portraitdecode/credit/CCBY2/changedisclosure,canonical/indexability,Article/Person/ImageObject/date,allanchors/uniqueIDs,nooverflow/noJSerrors. Hub11cards,allportraitsdecode. Sitemap11profilesincludingHinton. Live desktopintro/mobilehub screenshots visuallyinspected.
+- Audit-onlycompletionrecordedlocallyafterrelease; noredundantproductiondeployment. Hintonisexcludedfromfuturefirst-biographyselection. Nextcategory **Technology**. Nooutreach,socialposting,paidlicensingorXaccountwork. Unrelatedassets/remainsuntouchedanduntracked.
