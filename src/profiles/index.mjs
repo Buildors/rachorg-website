@@ -9,8 +9,9 @@ import { radiaPerlman } from "./radia-perlman.mjs";
 import { annaHeringer } from "./anna-heringer.mjs";
 import { maryClaireKing } from "./mary-claire-king.mjs";
 import { geoffreyHinton } from "./geoffrey-hinton.mjs";
+import { vintCerf } from "./vint-cerf.mjs";
 
-export const profiles = [geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+export const profiles = [vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -22,7 +23,7 @@ const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
 const profileCards = profiles.map((profile) => `<article class="profile-card">
   <div class="profile-card-media">
     <a class="profile-card-image" href="${profile.path}" aria-label="Read the ${profile.title} profile">
-      <img src="${profile.image}" alt="${profile.imageAlt}" width="${profile.imageWidth || 1920}" height="${profile.imageHeight || 2879}" loading="lazy">
+      <img src="${profile.image}" alt="${profile.imageAlt}" width="${profile.imageWidth || 1920}" height="${profile.imageHeight || 2879}" loading="lazy"${profile.imagePosition ? ` style="object-position:${profile.imagePosition}"` : ''}>
     </a>
     <p class="profile-card-image-credit">Photo: <a href="${profile.imageSource}" target="_blank" rel="noreferrer">${profile.imageCreator} (<span class="creator-handle">${profile.imageCreatorAccount}</span>) / Wikimedia Commons</a> — <a href="${profile.imageLicenseUrl}" target="_blank" rel="license noreferrer">${profile.imageLicense}</a>. ${profile.imageDisplayNote}</p>
   </div>
