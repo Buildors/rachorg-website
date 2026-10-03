@@ -1,6 +1,6 @@
 # Vint Cerf — October 3, 2026 publication record
 
-Status: READY FOR AUTHORIZED PUBLICATION — local validation complete; production not yet verified.
+Status: PUBLISHED AND PRODUCTION-VERIFIED — October 3, 2026, 13:17:24 UTC.
 
 ## Selection and authority
 
@@ -67,3 +67,12 @@ Initialbuild25pages; initialcheckcaught missingnumericphoto-sourceanchors29–31
 - SourceURLcheck:26HTTP200;Smithsonian/ETHW/twoForbesURLs403;Commons429. Allfive contentrecords accessiblethroughwebreader; no404amongpublishedsources. HistoricalGooglebibliography404notincludedassource. Thoseaccessgapsandcurrentinventorylimitations disclosed.
 - FreshKnownSept22recordandIETFversion01 recheckedwithwebreader immediatelybeforepublication. Preflightscript independentlychecksall11livearticledates, Cerf404, originalFlickrCCBY2license, currentadvisoryannouncement. No secondprofiletoday permitted.
 - Onlynecessaryprofilemodule,portrait,indexandthisledger willbestaged. PriorHintonproductionauditpreserved. Nooutreach,socialposting,paidlicense,DNS/securityorhostingmigration.
+
+### Completed publication — October 3, 2026
+
+- Live URL: https://rachorg.org/profiles/vint-cerf/ ; canonical https://rachorg.org/profiles/vint-cerf . Title: Vint Cerf: A Life Connecting What Was Separate. Technology;3,601narrativewords;31sources.
+- Finalpreflight2026-10-03T13:15:46.882Z: all11priorlivedateschecked,noneOctober3;Cerf404;FlickrCCBY2/currentKnownroleconfirmed.
+- Publicationcommit7aa14fa8635dc5db6d6c36e4fe31f39ad3c4a495 pushedorigin/main;remotehashmatched. ExistingCloudflarePagesproduction0ecffe24-4665-420e-922c-0349bcbabb74,source7aa14fa,projectrachorg-website. NoalternatehostingorDNSchanges.
+- Initialpubliccheck404duringpropagation; waitedandretriedwithoutrepublishing. At2026-10-03T13:17:24.281Z, publicarticleHTTP200,exactarticleHTMLmatchedvalidatedlocalbuild. PortraitHTTP200andSHA2560c85cc8cdc56d45c6685f4fb7943a352c804715099e8fa614fad5ba89ce7540c matched.
+- Productiondesktop1440x1000andmobile390x844PASS: portraitdecoded1600wide,credit/license,citations,uniqueIDs,canonical,Article/Person/ImageObject,date,31sources,nooverflow/noJSerrors. Hub12cards,allportraitsdecoded,Cerffirst. Sitemap12profiles. Live screenshots visuallyinspected.
+- Productionauditrecordedlocallywithoutredundantdeployment. Cerfexcludedfromfuturefirst-biographyselection. NextcategoryConstructionandthebuiltenvironment. Unrelatedassets/untouched. Nooutreach,social/Xposting,purchaseorpaidlicensing.
