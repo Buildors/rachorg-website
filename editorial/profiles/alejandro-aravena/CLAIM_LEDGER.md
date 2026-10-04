@@ -1,6 +1,6 @@
 # Alejandro Aravena — October 4, 2026
 
-Status: UNPUBLISHED — research, local build, browser QA and preflight completed; deployment and production verification pending.
+Status: PUBLISHED AND PRODUCTION-VERIFIED — October 4, 2026, 09:42 America/New_York (13:42 UTC). Do not publish another new profile today.
 
 ## Selection and publication guard
 
@@ -79,3 +79,14 @@ Initial build: 26 pages. Initial check: 27 pages / 76 output files, all internal
 - Source-link check: 27 HTTP 200; four automated-fetch 403 responses (ScienceDirect, El País August26, PROJETO, Holcim). These are access restrictions, not evidence the articles disappeared. El País, PROJETO and Holcim readable through research reader and rechecked; ScienceDirect indexed abstract and Deakin repository metadata support the limited summary. No claim of unrestricted access to full ScienceDirect paper. ReVista direct fetch recovered HTTP200 after reader502. Other critical primary records including Qatar Museums returned HTTP200 directly even where reader later failed.
 - Preflight PASS 2026-10-04T13:39:39Z: all 12 live article dates checked, no October4 publication; Aravena URL404, hub and sitemap exclude him. Original YouTube CC reuse label/author, current Pritzker jury chair, and ELEMENTAL leadership rechecked. Latest project index, Holcim and recent PROJETO interview rechecked before release.
 - Git fetch: no incoming changes. Prior audit commit 3df9f49 preserved. Current Cloudflare production 0ecffe24-4665-420e-922c-0349bcbabb74 / source7aa14fa confirmed. Only new profile module, portrait, index and ledger will be staged.
+
+## Completed publication
+
+- Subject: Alejandro Aravena. Title: Alejandro Aravena: The Architect Who Left Room for Others. Category: Construction and Built Environment. 3,971 narrative words; 31 linked sources.
+- Live URL: https://rachorg.org/profiles/alejandro-aravena/ . Canonical: https://rachorg.org/profiles/alejandro-aravena . Published October 4, 2026; reporting cutoff October 4, 2026.
+- Publication commit: `30e5c444f856ad34bcb9003eb0b8181ea3508e5c`; pushed origin/main and verified remote hash. Cloudflare Pages project rachorg-website production deployment `9975fc2c-f35d-47f6-b777-9993d81dfac9`, source30e5c44. No alternate deployment or hosting/DNS changes.
+- First post-push live check returned404 during propagation. Waited20seconds and rechecked without republishing. Production QA PASS at `2026-10-04T13:42:12.055Z`.
+- Live desktop1440×1000 and mobile390×844: HTTP200; exact article HTML matches checked local build; portrait decoded665wide; visible original-source attribution and CC BY3.0; citation anchors and unique IDs; canonical, indexable robots, title, Article/Person/ImageObject and publication date/current role; no horizontal overflow or JavaScript errors. Live screenshots visually inspected after production pass.
+- Public portrait SHA256 `85f96429c5ab00bf56cc3b3c992170f8cf671503501ba9c03e79e7682ee8db1c` matches downloaded original. Hub13cards, Aravena first, all portraits decode. Sitemap13profile URLs including Aravena.
+- Recognition: collaborative housing work preserving urban access and enabling adaptation; residents' labor, limitations and mixed outcomes explicitly included. No claim of eliminating poverty or validated whole-life net-zero housing.
+- No outreach, interview request, paid image licensing, social/X posting, purchases or unrelated mutations. Untracked assets/ preserved. Next daily category: Longevity or Biotechnology. No candidate selected in advance in this run.
