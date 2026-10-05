@@ -1,6 +1,6 @@
 # Drew Weissman — October 5, 2026
 
-Status: UNPUBLISHED — editorial and local validation complete; release pending. No deployment attempted.
+Status: PUBLISHED AND PRODUCTION-VERIFIED — October 5, 2026, 10:39 America/New_York (14:39 UTC). Do not publish another new profile today.
 
 ## Selection and duplicate control
 
@@ -61,3 +61,9 @@ Build PASS: 27 generated pages; check PASS: 28 pages, 78 files, all internal ref
 Source-link check: 18 direct200 responses, nine PubMed203 anti-bot shells, Brandeis403. Indexed primary content for these records previously inspected; public methodology discloses access limits. No404/410 found. Brandeis follow-up reader showed JS verification; source is original indexed commencement transcript, not an invented quotation. Nobel/PMC direct200 alternative access succeeded. Do not claim all links were unrestricted/full papers reviewed.
 
 Preflight14:35 UTC PASS: all13 live profile publication dates reviewed, noneOct5; target404; hub/sitemap absent Weissman; current official role and June23 preclinical announcement rechecked. Remote main remains30e5c44, local audit e3fe43e preserved. Fresh prepush recheck required. Do not interpret draft:false or build success as publication. Production verification pending.
+
+Final prepush recheck14:37:16 UTC PASS, including creator own-work/license record. Scoped release commit97eb49ddb3f49f018e2a1a1e708b0059f24ab3af pushed to main, remote SHA matched. Cloudflare Pages projectrachorg-website production deployment746dd2cb-c2f5-4e4b-874f-8f417db68867 Active, source97eb49d. No DNS, hosting, security, mail or unrelated site changes.
+
+Initial production request404 during propagation; no repush or duplicate deployment. Subsequent actual canonical-site Playwright verification PASS at2026-10-05T14:39:46.564Z on desktop1440x1000/mobile390x844. URL https://rachorg.org/profiles/drew-weissman/ HTTP200, exact normalized article DOM matched local build; portrait decoded960x1439 and SHA256 matched; John Sears/CC BY-SA4.0 attribution/license/change notice visible. 3,812 narrative words,28 sources, current-work section, financial/safety limitations, AI/no-interview disclosure and correction route present. Canonical, metadata, Article/Person/ImageObject, publication date, anchors, noindex absence, no horizontal overflow/JS errors all passed. Live hub14 cards, Weissman first, all images loaded; live sitemap14 unique profile entries. Live screenshots inspected for portrait/credit and desktop/mobile hub and article presentation.
+
+Publication completed October5 only. Next slot Artificial Intelligence. Unrelated assets/ left untouched. Audit-only completion record committed locally without a second deployment push. No social posting or external outreach performed.
