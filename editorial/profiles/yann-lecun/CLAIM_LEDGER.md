@@ -1,6 +1,6 @@
 # Yann LeCun — October 6, 2026 publication record
 
-Status: UNPUBLISHED — release-ready after local validation; production verification pending. Do not treat a local build as publication.
+Status: PUBLISHED — production verified October 6, 2026, 14:22:18 UTC (10:22:18 America/New_York). This completes the October 6 daily publication; do not publish another person today.
 
 ## Selection and scope
 
@@ -72,8 +72,8 @@ Initial local QA passed at 14:17 UTC: 4,505 words, 34 sources. Final current-wor
 - [x] Desktop/mobile portrait, credit, content, hub, overflow and screenshots
 - [x] Canonical, metadata, Article/Person/ImageObject, sitemap
 - [x] Fresh live duplicate/day-cap check plus role/current-work/rights refresh
-- [ ] Scoped Git release through existing Cloudflare Pages project
-- [ ] Actual production DOM, portrait bytes, hub, sitemap and responsive verification
+- [x] Scoped Git release through existing Cloudflare Pages project
+- [x] Actual production DOM, portrait bytes, hub, sitemap and responsive verification
 
 Unrelated untracked assets/ construction renderings must remain untouched and uncommitted.
 
@@ -82,3 +82,16 @@ Final local validation: **4,667 narrative words, 36 sources**. Build generated 2
 Portrait SHA-256: `00f6bdbe0499bd742a4d5a102eb4489f930aa7f04a080444b2f4b7e0d5583816`.
 
 Final live preflight again found 14 existing profiles, no October 6 publication, target absent/404. NYU role, AMI work, four recent-paper records and photographer license fetched again immediately before release. Git fetch confirmed only the prior local Weissman verification commit ahead of remote main. Release must include only this profile module, hub import, portrait, and ledger, preserving that prior audit commit. Deployment workflow: push main to existing Cloudflare Pages `rachorg-website`; no DNS/hosting changes.
+
+## Production verification
+
+- Live URL: https://rachorg.org/profiles/yann-lecun/
+- Title: Yann LeCun: A Life Spent Teaching Machines to See
+- Category: Artificial Intelligence. Final narrative count: 4,667. Public sources: 36.
+- Release commit: `a7a7989` (pushed main successfully; prior Weissman audit commit preserved).
+- Cloudflare production deployment: `5a0cfabd-9776-4bfc-b6e8-e361f980d27e`, source `a7a7989`, Active, existing project `rachorg-website`.
+- First canonical check returned 404 during propagation. Waited and retried the same URL; no second deployment or duplicate publication.
+- Canonical public route HTTP 200. Exact normalized article DOM equals tested local build. Desktop and mobile pass, no browser exceptions or horizontal overflow, portrait decoded and SHA-256 equals local original, visible photographer/license/change disclosure, all 36 source anchors resolve, no duplicate IDs, correct canonical/title/Article/Person/ImageObject/date/license/current role, no noindex.
+- Live Profiles hub has 15 cards, LeCun first. Live sitemap has 15 profiles, including LeCun. Production screenshots for desktop/mobile opening, portrait, article body, current work, sources and hub captured; portrait and hub visually rechecked.
+- Verified at `2026-10-06T14:22:18.864Z`. Next rotation category: **Technology**. No social posting, contact, purchases, X account action, DNS/security changes or backlog release.
+- This post-publication audit is a local-only follow-up commit to avoid an unnecessary second deployment.
