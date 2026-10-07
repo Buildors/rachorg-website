@@ -1,6 +1,6 @@
 # Barbara Liskov — editorial and publication ledger
 
-Run date: October 7, 2026, America/New_York. Status: prepared and locally validated; NOT YET PUBLISHED at creation of this ledger.
+Run date: October 7, 2026, America/New_York. Status: PUBLISHED AND PRODUCTION-VERIFIED. Initial preparation state and release checks retained below as an audit trail.
 
 ## Selection and duplicate control
 
@@ -74,3 +74,14 @@ Access gaps: personal homepage https://pmg.csail.mit.edu/~liskov/ and group site
 - Unrelated untracked assets/ construction files preserved; no broad staging.
 - Before release: rerun build/QA, live one-per-day/duplicate preflight, role/current-work/image-rights fetch. Push only scoped article, index, portrait and ledger, retaining prior local audit commit. Established Cloudflare Pages project rachorg-website, main branch; no DNS/security/hosting change.
 - Production is not verified yet. No social posting, X setup, contacts or purchases authorized or performed.
+
+## Production verification — completed
+
+- Live URL: https://rachorg.org/profiles/barbara-liskov/
+- Release commit: ecf2953, pushed main successfully to the established Git-connected Cloudflare workflow. Prior LeCun audit commit 929bd09 preserved. No replacement hosting or manual second deployment.
+- Final preflight at 14:07:23 UTC: 15 previous profiles, none October 7, target absent/404; current title, April interview, September 28 Apache account and portrait rights fetched again.
+- Final build: 29 pages; checker: 30 pages, 83 output files. All internal references resolve. Count 3,830 narrative words; 33 source URLs, all HTTP 200 in external audit.
+- First post-push check returned 404 during propagation. Same canonical URL retried without republishing. Next check passed desktop but encountered mobile image decode failure. Repeated complete verification passed both devices; no duplicate release or additional article.
+- Production verification completed 2026-10-07T14:09:30.553Z (10:09 a.m. America/New_York): HTTP 200; exact normalized live article DOM matches tested local build on desktop and mobile; portrait decodes and live hash matches original; all citation anchors resolve; no duplicate IDs, JS exceptions, horizontal overflow or noindex. Canonical/title/publication date, Article/Person/ImageObject and license metadata correct.
+- Live index has 16 cards with Liskov first; sitemap has 16 profile articles including Liskov. Live screenshots inspected for article text and hub/credit; dedicated full-face desktop/mobile screenshots captured separately.
+- Next category: Construction and the built environment. Do not publish another new profile on October 7. Unrelated assets/ remains untracked and untouched. Post-publication ledger update is local-only to avoid an unnecessary second deployment.
