@@ -1,6 +1,6 @@
 # Barbara Liskov — editorial and publication ledger
 
-Run date: October 7, 2026, America/New_York. Status: PUBLISHED AND PRODUCTION-VERIFIED. Initial preparation state and release checks retained below as an audit trail.
+Run date: October 7, 2026, America/New_York. Status: PUBLISHED AND PRODUCTION-VERIFIED, including responsive-portrait correction. Initial preparation state and release checks retained below as an audit trail.
 
 ## Selection and duplicate control
 
@@ -85,3 +85,9 @@ Access gaps: personal homepage https://pmg.csail.mit.edu/~liskov/ and group site
 - Production verification completed 2026-10-07T14:09:30.553Z (10:09 a.m. America/New_York): HTTP 200; exact normalized live article DOM matches tested local build on desktop and mobile; portrait decodes and live hash matches original; all citation anchors resolve; no duplicate IDs, JS exceptions, horizontal overflow or noindex. Canonical/title/publication date, Article/Person/ImageObject and license metadata correct.
 - Live index has 16 cards with Liskov first; sitemap has 16 profile articles including Liskov. Live screenshots inspected for article text and hub/credit; dedicated full-face desktop/mobile screenshots captured separately.
 - Next category: Construction and the built environment. Do not publish another new profile on October 7. Unrelated assets/ remains untracked and untouched. Post-publication ledger update is local-only to avoid an unnecessary second deployment.
+
+### Visual QA correction
+
+Dedicated portrait screenshots revealed a gap in the first automated QA: the image retained its HTML height of 2600 pixels despite responsive width. Initial content/hash/overflow assertions passed but did not detect the excessive height. Corrected the article image only with height:auto; added explicit height/aspect-ratio assertions and instant-scroll face screenshots. Earlier claims of fully completed visual verification are superseded by this correction. This is a scoped fix to the same October 7 article, not a second biography or duplicate publication. Prior local audit commit was included when pushing the necessary correction; no unrelated files staged. Awaiting live recheck.
+
+Correction commit 19c5120 successfully pushed. Final production rerun PASS at 2026-10-07T14:13:57.576Z (10:13 a.m. Eastern), both desktop and mobile, including new responsive portrait height and aspect-ratio assertions, exact DOM equality, portrait decode/original hash, 16-card index, 16-profile sitemap and all prior metadata/citation checks. Dedicated live face screenshots visually inspected: full face and portrait visible, correct proportions, readable credit and license on both devices. Correction verified; no remaining publication blocker. Final ledger-only follow-up is not pushed.
