@@ -1,6 +1,6 @@
 # Anne Lacaton — editorial and publication record
 
-Status: UNPUBLISHED — local content and layout checks passed; release and production verification pending.
+Status: PUBLISHED AND PRODUCTION-VERIFIED — October 10, 2026.
 Prepared October 9; current-source refresh and intended publication October 10, 2026, America/New_York. No backdating or backlog publication.
 
 ## Selection and scope
@@ -73,4 +73,18 @@ The original connective analysis is labeled through prose as interpretation. No 
 - All 34 source URLs were checked in research. 31 direct fetches returned 200; EUmies, Frac and EPFL timed out in direct checks but were readable through web retrieval. Le Monde reader access limited; no full-access claim.
 - Fresh October 10 checks covered official office/publications, ETH directory search, Kampnagel FAQ, Vannes city record, DBZ interview and portrait/EPFL permission corroboration. Search for current interviews yielded no material contradiction; older reposts not treated as new developments.
 - Unrelated untracked assets/ preserved and excluded. No social publication, subject contact, DNS, mail or security changes authorized or performed.
-- Release workflow: existing GitHub Buildors/rachorg-website main to Cloudflare Pages rachorg-website. Commit/push and actual production verification pending.
+- Release workflow: existing GitHub Buildors/rachorg-website main to Cloudflare Pages rachorg-website. Release commit ccd6058 pushed successfully. Prior local Barbara Liskov verification-only commit 1938ce9 accompanied the push; no unrelated assets staged.
+
+## Production completion
+
+- Final local dated build: desktop/mobile PASS at 14:11:56–58 UTC October 10.
+- Immediate live preflight fetched all 16 published routes and their Article dates; none October 10. Target 404. David Sinclair confirmed September 20 and Mary-Claire King October 1.
+- First post-push request returned 404 during propagation. Waited and rechecked; did not redeploy or republish.
+- Production URL: https://rachorg.org/profiles/anne-lacaton/
+- Production QA PASS: desktop 14:13:28 UTC, mobile 14:13:30 UTC October 10. Browser process completed exit 0.
+- Exact normalized article DOM matched the final local build; 3,823 narrative words and 34 sources. Canonical, Article/Person/ImageObject schemas, October 10 publication date, license and creator checked. No noindex, missing fragment targets, duplicate IDs, horizontal overflow or browser page errors.
+- Live portrait decoded as 1024 x 683; downloaded production bytes matched the original SHA256. Display heights 526px desktop / 510px mobile. Actual live screenshots inspected for article portrait/credit, mobile current-work text and Profiles card.
+- Live hub contains 17 cards, Anne Lacaton first; image attribution present. Live sitemap includes the new canonical route and 17 biographies.
+- Screenshots: /private/tmp/rach-lacaton-live-{desktop,mobile}-{top,portrait,story,now,credit,sources,hub}.png (temporary QA artifacts).
+- Exactly one new biography released October 10; no catch-up mass publication. Next category: longevity/biotechnology.
+- This completion record is a local audit-only commit, not an additional deployment trigger.
