@@ -15,8 +15,9 @@ import { drewWeissman } from "./drew-weissman.mjs";
 import { yannLeCun } from "./yann-lecun.mjs";
 import { barbaraLiskov } from "./barbara-liskov.mjs";
 import { anneLacaton } from "./anne-lacaton.mjs";
+import { carolGreider } from "./carol-greider.mjs";
 
-export const profiles = [anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+export const profiles = [carolGreider, anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",

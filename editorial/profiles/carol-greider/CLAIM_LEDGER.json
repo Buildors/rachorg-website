@@ -1,0 +1,676 @@
+{
+  "subject": "Carol Greider",
+  "category": "Longevity and Biotechnology",
+  "researchDate": "2026-10-13",
+  "publicationStatus": "READY FOR AUTHORIZED DEPLOYMENT - production not yet verified",
+  "title": "Carol Greider: A Life at the Ends of Chromosomes",
+  "wordCount": 3876,
+  "selection": {
+    "previousPublished": "Anne Lacaton, Construction, 2026-10-10",
+    "nextCategoryAfterPublication": "Artificial Intelligence",
+    "duplicateCheck": "Final live preflight October 13: target 404, 17 published profiles, latest Anne Lacaton October 10, zero October 13 articles",
+    "namedPriorities": "David Sinclair already published September 20; Mary-Claire King already published October 1; neither repeated",
+    "recentProposalReview": "No Carol Greider match among recovered prior choices",
+    "scores": {
+      "demonstratedImpact": 19,
+      "narrativeDepth": 18,
+      "readerRelevance": 14,
+      "originalAngle": 13,
+      "evidenceAvailability": 14,
+      "timeliness": 8,
+      "interviewVisualPotential": 4,
+      "total": 90
+    },
+    "internalStrategicRelevance": "Strengthen evidence-conscious biotechnology coverage and cross-sector scientific literacy; no partnership or endorsement implied."
+  },
+  "claims": [
+    {
+      "section": "opening",
+      "title": "Christmas was the beginning, not the proof",
+      "sources": [
+        4,
+        6
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "origins",
+      "title": "A childhood that did not fit the standard test",
+      "sources": [
+        2
+      ],
+      "classification": "Documentary facts plus attributed recollection and clearly signaled editorial interpretation"
+    },
+    {
+      "section": "training",
+      "title": "Finding a place at the bench",
+      "sources": [
+        3
+      ],
+      "classification": "Documentary facts plus attributed recollection and clearly signaled editorial interpretation"
+    },
+    {
+      "section": "precedents",
+      "title": "A problem older than the partnership",
+      "sources": [
+        5
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "assay",
+      "title": "Making an invisible activity visible",
+      "sources": [
+        6
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "components",
+      "title": "The enzyme carried a second kind of information",
+      "sources": [
+        7
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "template",
+      "title": "A template, not a metaphor",
+      "sources": [
+        8,
+        5
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "independence",
+      "title": "Beginning again on Long Island",
+      "sources": [
+        2,
+        18
+      ],
+      "classification": "Documentary facts plus attributed recollection and clearly signaled editorial interpretation"
+    },
+    {
+      "section": "shortening",
+      "title": "Cells brought time into the experiment",
+      "sources": [
+        9
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "mice",
+      "title": "An organism complicates the picture",
+      "sources": [
+        10
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "hopkins",
+      "title": "A laboratory close to medicine",
+      "sources": [
+        20,
+        4
+      ],
+      "classification": "Documentary facts plus attributed recollection and clearly signaled editorial interpretation"
+    },
+    {
+      "section": "families",
+      "title": "When chromosome ends became a family question",
+      "sources": [
+        11
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "diagnosis",
+      "title": "A result that could change a clinical decision",
+      "sources": [
+        12
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "nobel",
+      "title": "Recognition, and the size of a name",
+      "sources": [
+        30
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "culture",
+      "title": "Who gets to remain in science?",
+      "sources": [
+        18,
+        19
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "santa-cruz",
+      "title": "Returning to California",
+      "sources": [
+        1,
+        20,
+        25,
+        32
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "measurement",
+      "title": "An average concealed the individual ends",
+      "sources": [
+        13,
+        14
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "interests",
+      "title": "A method can also have commercial stakes",
+      "sources": [
+        29
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "medicine",
+      "title": "A drug milestone points in the opposite direction",
+      "sources": [
+        21,
+        22
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "current",
+      "title": "What they are working on now — October 13, 2026",
+      "sources": [
+        1,
+        25,
+        15,
+        16,
+        26,
+        31
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "students",
+      "title": "The next experiment may belong to a student",
+      "sources": [
+        27
+      ],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    },
+    {
+      "section": "recognition",
+      "title": "Why RACH recognizes Carol Greider",
+      "sources": [],
+      "classification": "Documentary facts plus editorial synthesis; no invented scene or dialogue"
+    }
+  ],
+  "sourceRecords": [
+    {
+      "id": 1,
+      "title": "Carol Greider faculty profile",
+      "publisher": "UC Santa Cruz",
+      "url": "https://mcd.ucsc.edu/people/faculty/carol-greider/",
+      "note": "Current Distinguished Professor appointment and research program; checked October 13, 2026."
+    },
+    {
+      "id": 2,
+      "title": "Biographical",
+      "publisher": "Carol Greider / Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/medicine/2009/greider/biographical/",
+      "note": "2009 first-person recollections; early life and independent appointment, not a current institutional profile."
+    },
+    {
+      "id": 3,
+      "title": "Biography of Carol W. Greider",
+      "publisher": "PNAS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1149435/",
+      "note": "2005 independent biographical reporting. Accessible indexed passages checked; full archive access was intermittent."
+    },
+    {
+      "id": 4,
+      "title": "Going Her Own Way",
+      "publisher": "Mitchell Leslie / Lasker Foundation",
+      "url": "https://laskerfoundation.org/going-her-own-way/",
+      "note": "November 27, 2024 independently authored profile and interview. The foundation previously honored the subject."
+    },
+    {
+      "id": 5,
+      "title": "Advanced information: the 2009 Nobel Prize in Physiology or Medicine",
+      "publisher": "Nobel Assembly",
+      "url": "https://www.nobelprize.org/prizes/medicine/2009/advanced-information/",
+      "note": "Historical scientific attribution and predecessors; not clinical evidence."
+    },
+    {
+      "id": 6,
+      "title": "Identification of a specific telomere terminal transferase activity in Tetrahymena extracts",
+      "publisher": "Carol Greider and Elizabeth Blackburn / Cell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3907856/",
+      "note": "1985 experimental paper; abstract and bibliographic record."
+    },
+    {
+      "id": 7,
+      "title": "The telomere terminal transferase of Tetrahymena is a ribonucleoprotein enzyme with two kinds of primer specificity",
+      "publisher": "Greider and Blackburn / Cell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3319189/",
+      "note": "1987 RNA and protein requirements; abstract and record."
+    },
+    {
+      "id": 8,
+      "title": "A telomeric sequence in the RNA of Tetrahymena telomerase required for telomere repeat synthesis",
+      "publisher": "Greider and Blackburn / Nature",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2463488/",
+      "note": "1989 RNA-template evidence; distinguish subsequent functional template experiments by other authors."
+    },
+    {
+      "id": 9,
+      "title": "Telomeres shorten during ageing of human fibroblasts",
+      "publisher": "Harley, Futcher and Greider / Nature",
+      "url": "https://www.nature.com/articles/345458a0",
+      "note": "1990 cell-culture study, not a human longevity intervention. Publisher access is intermittent."
+    },
+    {
+      "id": 10,
+      "title": "Telomere shortening and tumor formation by mouse cells lacking telomerase RNA",
+      "publisher": "Blasco and colleagues / Cell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9335332/",
+      "note": "1997 mouse study; six generations analyzed, not human efficacy."
+    },
+    {
+      "id": 11,
+      "title": "Telomerase mutations in families with idiopathic pulmonary fibrosis",
+      "publisher": "Armanios and colleagues / New England Journal of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17392301/",
+      "note": "2007 study: mutations in six of 73 probands. Defined familial population, not all pulmonary fibrosis."
+    },
+    {
+      "id": 12,
+      "title": "Diagnostic utility of telomere length testing in a hospital-based setting",
+      "publisher": "Alder, Armanios and colleagues / PNAS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877993/",
+      "note": "2018 targeted observational study; decisions changed in nine of 38 cases, not a randomized survival benefit. Authorship contributions checked."
+    },
+    {
+      "id": 13,
+      "title": "Human telomere length is chromosome end-specific and conserved across individuals",
+      "publisher": "Karimian and colleagues / Science",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38603523/",
+      "note": "2024 peer-reviewed study; distinguished from the older preprint and a newer 2026 protocol."
+    },
+    {
+      "id": 14,
+      "title": "New study reveals unexpected complexity in human telomere lengths",
+      "publisher": "Mike Peña / UC Santa Cruz",
+      "url": "https://news.ucsc.edu/2024/04/telomere-lengths/",
+      "note": "April 11, 2024 institutional research reporting: 147 people, end-specific measurements and sequencing collaborators."
+    },
+    {
+      "id": 15,
+      "title": "Nanopore sequencing to measure chromosome end-specific telomere lengths in human cells",
+      "publisher": "Groot, Karimian, Rechsteiner and Greider / bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745035v1",
+      "note": "August 2026: indexed page says August 18, repository API August 20. Exact posting-date discrepancy unresolved. Full text inaccessible during this reporting run; protocol description relies on repository abstract and metadata, not an independent methods audit."
+    },
+    {
+      "id": 16,
+      "title": "Repository metadata for the 2026 Telomere Profiling protocol",
+      "publisher": "bioRxiv API",
+      "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.08.15.745035",
+      "note": "Checked October 13, 2026: version 1, August 20 posting date, no linked journal publication. Indexed page gives August 18 instead; discrepancy disclosed."
+    },
+    {
+      "id": 17,
+      "title": "Publications",
+      "publisher": "Greider Laboratory",
+      "url": "https://www.greiderlab.org/publications/index.html",
+      "note": "Official but incomplete publication list checked alongside repository records; not treated as an exhaustive current bibliography."
+    },
+    {
+      "id": 18,
+      "title": "Carol Greider: Nobel Prize-winning rogue biologist",
+      "publisher": "Brian Stallard / Cold Spring Harbor Laboratory",
+      "url": "https://www.cshl.edu/carol-greider-nobel-prize-winning-rogue-biologist/",
+      "note": "2020 institutional history; notebook setbacks, community building and workforce meeting. Autobiographical chronology takes precedence over imprecise training terminology."
+    },
+    {
+      "id": 19,
+      "title": "Working Group on Changing the Culture to End Sexual Harassment",
+      "publisher": "NIH Advisory Committee to the Director",
+      "url": "https://acd.od.nih.gov/working-groups/sexual-harassment.html",
+      "note": "Historical membership and 2019 recommendations; participation is not evidence of implementation or measured harm reduction."
+    },
+    {
+      "id": 20,
+      "title": "Nobel Prize winner Carol Greider to join UC Santa Cruz faculty",
+      "publisher": "University of California",
+      "url": "https://www.universityofcalifornia.edu/news/nobel-prize-winner-carol-greider-join-uc-santa-cruz-faculty",
+      "note": "2020 appointment and historical Johns Hopkins service. Current role verified separately."
+    },
+    {
+      "id": 21,
+      "title": "FDA approves imetelstat for low- to intermediate-1 risk myelodysplastic syndromes with transfusion-dependent anemia",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent",
+      "note": "June 6, 2024 approval; defined indication, trial endpoints and adverse effects. Not an anti-aging approval or a drug attributed solely to Greider."
+    },
+    {
+      "id": 22,
+      "title": "First telomerase inhibitor approved",
+      "publisher": "Nature Reviews Drug Discovery",
+      "url": "https://www.nature.com/articles/d41573-024-00102-7",
+      "note": "June 14, 2024 independent reporting. Accessible opening corroborates approval; full article access limited."
+    },
+    {
+      "id": 23,
+      "title": "GREIDER Carol 2014.jpg",
+      "publisher": "Keith Weller / Johns Hopkins University School of Medicine, Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg",
+      "note": "Individual VRT-confirmed permission ticket 2016040810014602 and CC BY-SA 4.0; existing 2016 lossless crop by Adam Cuerden."
+    },
+    {
+      "id": 24,
+      "title": "Attribution-ShareAlike 4.0 International",
+      "publisher": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "note": "Portrait license, attribution and modification disclosure; the article prose is not licensed under these image terms."
+    },
+    {
+      "id": 25,
+      "title": "Research",
+      "publisher": "Greider Laboratory",
+      "url": "https://www.greiderlab.org/",
+      "note": "Official current research description checked October 13, 2026; yeast and human-cell research."
+    },
+    {
+      "id": 26,
+      "title": "The End Game: Discovering How Telomeres Cause Disease",
+      "publisher": "UC Santa Cruz Events",
+      "url": "https://events.ucsc.edu/event/the-end-game-discovering-how-telomeres-cause-disease/",
+      "note": "Event held December 11, 2025; page updated February 3, 2026. No recording viewed."
+    },
+    {
+      "id": 27,
+      "title": "Manjusha Handa Cancer Research Award",
+      "publisher": "UC Santa Cruz Physical and Biological Sciences",
+      "url": "https://science.ucsc.edu/research-opportunities/manjusha-handa-cancer-research-award/",
+      "note": "Historical 2024–25 award project for Tereza Shea; not a verified current staff appointment or clinical result."
+    },
+    {
+      "id": 28,
+      "title": "Public bibliography",
+      "publisher": "Carol Greider / NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/myncbi/carol.greider.1/bibliography/40400224/public/",
+      "note": "Supplementary publication discovery; no claim of exhaustive coverage."
+    },
+    {
+      "id": 29,
+      "title": "Earlier preprint record for chromosome-end telomere profiling",
+      "publisher": "Karimian and colleagues / PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38187739/",
+      "note": "Competing-interest disclosure identifies Greider and Karimian on patent application PCT/US2023/073375. No granted-patent or income claim is made."
+    },
+    {
+      "id": 30,
+      "title": "Carol W. Greider: Facts",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/medicine/2009/greider/facts/",
+      "note": "2009 award shared with Blackburn and Szostak; historical affiliation at award time."
+    },
+    {
+      "id": 31,
+      "title": "Lessons From Yeast: Mechanisms of Telomere Length Regulation",
+      "publisher": "Rini Mayangsari and Carol Greider / Annual Review of Genetics",
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genet-012626-031334",
+      "note": "Review in Advance first posted June 25, 2026; abstract and publication record checked October 13. Full text not independently reviewed."
+    },
+    {
+      "id": 32,
+      "title": "Carol Greider, Professor Emerita",
+      "publisher": "Johns Hopkins Department of Molecular Biology and Genetics",
+      "url": "https://mbg.jhmi.edu/people/carol-greider/",
+      "note": "Current institutional emerita listing checked October 13, 2026."
+    }
+  ],
+  "criticalChecks": [
+    {
+      "claim": "Current Distinguished Professor, UCSC",
+      "evidence": "Official faculty page retrieved October 13; exact heading Distinguished Professor of MCD Biology"
+    },
+    {
+      "claim": "2007 familial pulmonary fibrosis mutations",
+      "evidence": "NEJM record: six of 73 probands, not general IPF prevalence"
+    },
+    {
+      "claim": "2018 flowFISH clinical relevance",
+      "evidence": "Full PNAS/PMC paper retrieved October 13: nine of 38 treatment/donor decisions changed; observational; not demonstrated lifespan benefit; authorship roles checked"
+    },
+    {
+      "claim": "2026 preprint date/status",
+      "evidence": "API retrieved October 13 gives August 20; indexed primary page says August 18. Article reports August with discrepancy disclosed; v1/no linked journal publication. Full methods not reviewed."
+    },
+    {
+      "claim": "Imetelstat",
+      "evidence": "FDA June 6 2024 indication/178-patient trial; 39.8% vs 15% eight-week transfusion independence; cytopenias; inhibitor not rejuvenation; no sole-inventor claim"
+    },
+    {
+      "claim": "Patent",
+      "evidence": "Earlier indexed preprint disclosure PCT/US2023/073375; application only; no income/current-company claim"
+    },
+    {
+      "claim": "Living status",
+      "evidence": "Current institutional listing, active official research program and August 2026 author-corresponding repository record; no contrary primary notice located"
+    },
+    {
+      "claim": "June 2026 review",
+      "evidence": "Annual Reviews official abstract/record June 25, 2026, coauthor Rini Mayangsari; review not intervention"
+    }
+  ],
+  "sourceLimitReview": "No direct quotations. Short original paraphrases distributed across 30 records; individual-source factual summaries kept below 200 words. Scientific interpretation is not a reproduction of source discussion. No full transcript or paywall circumvention.",
+  "accessGaps": [
+    "Full 2026 bioRxiv protocol inaccessible; use repository abstract/status only",
+    "PNAS 2005 biography read through indexed passages; full access intermittent",
+    "Some publisher pages limited to abstracts/records",
+    "No authenticated personal social feed established",
+    "No complete financial-interest audit",
+    "December 2025 event page read, recording not viewed"
+  ],
+  "portrait": {
+    "file": "public/assets/profiles/carol-greider-keith-weller.jpg",
+    "credit": "Keith Weller/Johns Hopkins University School of Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg",
+    "revision": "https://commons.wikimedia.org/w/index.php?title=File:GREIDER_Carol_2014.jpg&oldid=1155691938",
+    "originalFile": "https://upload.wikimedia.org/wikipedia/commons/0/01/GREIDER_Carol_2014.jpg",
+    "permission": "VRT-confirmed ticket 2016040810014602, publicly verified; private correspondence not accessed",
+    "changes": "Existing 12% vertical lossless crop by Adam Cuerden July 10 2016; RACH bytes unchanged; CSS sizing/display cropping/mild desaturation disclosed; same image license",
+    "width": 2934,
+    "height": 3929,
+    "bytes": 4547318,
+    "sha256": "259357f87d7007d8779015a70a28ec05558e71035a35e8531169baa0451643ef",
+    "visualInspection": "Portrait verified October 13; blue cardigan, smile, blue background. Genuine photograph.",
+    "dateQualification": "Page date January 12 vs EXIF January 7; public caption uses 2014 only"
+  },
+  "checks": {
+    "build": "PASS npm run build: 31 pages",
+    "internalLinks": "PASS npm run check: 32 pages, 87 output files",
+    "externalLinks": [
+      {
+        "id": 1,
+        "url": "https://mcd.ucsc.edu/people/faculty/carol-greider/",
+        "status": "200"
+      },
+      {
+        "id": 2,
+        "url": "https://www.nobelprize.org/prizes/medicine/2009/greider/biographical/",
+        "status": "200"
+      },
+      {
+        "id": 3,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1149435/",
+        "status": "200"
+      },
+      {
+        "id": 4,
+        "url": "https://laskerfoundation.org/going-her-own-way/",
+        "status": "200"
+      },
+      {
+        "id": 5,
+        "url": "https://www.nobelprize.org/prizes/medicine/2009/advanced-information/",
+        "status": "200"
+      },
+      {
+        "id": 6,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3907856/",
+        "status": "203"
+      },
+      {
+        "id": 7,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3319189/",
+        "status": "203"
+      },
+      {
+        "id": 8,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2463488/",
+        "status": "203"
+      },
+      {
+        "id": 9,
+        "url": "https://www.nature.com/articles/345458a0",
+        "status": "200"
+      },
+      {
+        "id": 10,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9335332/",
+        "status": "203"
+      },
+      {
+        "id": 11,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17392301/",
+        "status": "203"
+      },
+      {
+        "id": 12,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877993/",
+        "status": "200"
+      },
+      {
+        "id": 13,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38603523/",
+        "status": "203"
+      },
+      {
+        "id": 14,
+        "url": "https://news.ucsc.edu/2024/04/telomere-lengths/",
+        "status": "200"
+      },
+      {
+        "id": 15,
+        "url": "https://www.biorxiv.org/content/10.64898/2026.08.15.745035v1",
+        "status": "429"
+      },
+      {
+        "id": 16,
+        "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.08.15.745035",
+        "status": "200"
+      },
+      {
+        "id": 17,
+        "url": "https://www.greiderlab.org/publications/index.html",
+        "status": "200"
+      },
+      {
+        "id": 18,
+        "url": "https://www.cshl.edu/carol-greider-nobel-prize-winning-rogue-biologist/",
+        "status": "200"
+      },
+      {
+        "id": 19,
+        "url": "https://acd.od.nih.gov/working-groups/sexual-harassment.html",
+        "status": "403"
+      },
+      {
+        "id": 20,
+        "url": "https://www.universityofcalifornia.edu/news/nobel-prize-winner-carol-greider-join-uc-santa-cruz-faculty",
+        "status": "403"
+      },
+      {
+        "id": 21,
+        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent",
+        "status": "200"
+      },
+      {
+        "id": 22,
+        "url": "https://www.nature.com/articles/d41573-024-00102-7",
+        "status": "200"
+      },
+      {
+        "id": 23,
+        "url": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg",
+        "status": "200"
+      },
+      {
+        "id": 24,
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "status": "200"
+      },
+      {
+        "id": 25,
+        "url": "https://www.greiderlab.org/",
+        "status": "200"
+      },
+      {
+        "id": 26,
+        "url": "https://events.ucsc.edu/event/the-end-game-discovering-how-telomeres-cause-disease/",
+        "status": "200"
+      },
+      {
+        "id": 27,
+        "url": "https://science.ucsc.edu/research-opportunities/manjusha-handa-cancer-research-award/",
+        "status": "200"
+      },
+      {
+        "id": 28,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/myncbi/carol.greider.1/bibliography/40400224/public/",
+        "status": "200"
+      },
+      {
+        "id": 29,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38187739/",
+        "status": "203"
+      },
+      {
+        "id": 30,
+        "url": "https://www.nobelprize.org/prizes/medicine/2009/greider/facts/",
+        "status": "200"
+      },
+      {
+        "id": 31,
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genet-012626-031334",
+        "status": "403"
+      },
+      {
+        "id": 32,
+        "url": "https://mbg.jhmi.edu/people/carol-greider/",
+        "status": "200"
+      }
+    ],
+    "externalLinkQualification": "No 404. Access restrictions 403/429 retained as disclosed reporting gaps; successful HTTP response alone not treated as content verification.",
+    "desktopMobile": "PASS browser DOM and visual review at 1440x1000 and 390x844; no horizontal overflow or broken internal anchors; no page errors",
+    "metadata": "PASS Article, Person, ImageObject, canonical; final published-mode check follows draft removal",
+    "portrait": "PASS rendered and byte-identical verified source hash",
+    "production": "NOT YET ATTEMPTED"
+  },
+  "authorization": "Daily website publication only; no outreach, social posting, account setup, purchases, DNS or unrelated changes",
+  "preserved": "Unrelated untracked assets/ excluded from all staging"
+}
