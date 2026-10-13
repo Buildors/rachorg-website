@@ -2,7 +2,7 @@
   "subject": "Carol Greider",
   "category": "Longevity and Biotechnology",
   "researchDate": "2026-10-13",
-  "publicationStatus": "READY FOR AUTHORIZED DEPLOYMENT - production not yet verified",
+  "publicationStatus": "PUBLISHED AND PRODUCTION VERIFIED",
   "title": "Carol Greider: A Life at the Ends of Chromosomes",
   "wordCount": 3876,
   "selection": {
@@ -667,10 +667,264 @@
     ],
     "externalLinkQualification": "No 404. Access restrictions 403/429 retained as disclosed reporting gaps; successful HTTP response alone not treated as content verification.",
     "desktopMobile": "PASS browser DOM and visual review at 1440x1000 and 390x844; no horizontal overflow or broken internal anchors; no page errors",
-    "metadata": "PASS Article, Person, ImageObject, canonical; final published-mode check follows draft removal",
+    "metadata": "PASS final release and production: Article, Person, ImageObject, canonical, October 13 date, no draft noindex",
     "portrait": "PASS rendered and byte-identical verified source hash",
-    "production": "NOT YET ATTEMPTED"
+    "production": "PASS actual live article DOM equals authored article; 3876 narrative words; 32 sources; portrait bytes/hash/credit/license; 18-profile hub; sitemap; canonical; Article, Person, ImageObject; no noindex; desktop/mobile; no page errors",
+    "productionQa": {
+      "base": "https://rachorg.org",
+      "checkedAt": "2026-10-13T15:55:17.362Z",
+      "viewports": [
+        {
+          "label": "desktop",
+          "canonical": "https://rachorg.org/profiles/carol-greider",
+          "overflow": false,
+          "images": [],
+          "brokenAnchors": [],
+          "sources": 32,
+          "sections": 22,
+          "portraitCredit": "Carol Greider, 2014. Photo: Keith Weller/Johns Hopkins University School of Medicine, via Wikimedia Commons. CC BY-SA 4.0. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license. No endorsement implied.23, 24",
+          "schemas": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "NonprofitOrganization",
+                  "@id": "https://rachorg.org/#organization",
+                  "name": "RACH",
+                  "alternateName": "Recognizing the Achievements and Contributions to Humanity",
+                  "description": "A nonprofit foundation recognizing people whose achievements and contributions make a meaningful difference to humanity.",
+                  "url": "https://rachorg.org",
+                  "logo": "https://rachorg.org/assets/rach-logo.png",
+                  "email": "info@rachorg.org",
+                  "telephone": "+1-202-695-2527",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Washington",
+                    "addressRegion": "DC",
+                    "addressCountry": "US"
+                  },
+                  "sameAs": [
+                    "https://www.facebook.com/rachorgdc",
+                    "https://www.instagram.com/rachorgdc"
+                  ]
+                },
+                {
+                  "@type": "Article",
+                  "@id": "https://rachorg.org/profiles/carol-greider#article",
+                  "mainEntityOfPage": "https://rachorg.org/profiles/carol-greider",
+                  "headline": "Carol Greider: A Life at the Ends of Chromosomes",
+                  "description": "Carol Greider’s life in science: telomerase discovery, laboratory setbacks, shared credit, inherited disease, clinical testing and current chromosome-end research.",
+                  "image": {
+                    "@type": "ImageObject",
+                    "url": "https://rachorg.org/assets/profiles/carol-greider-keith-weller.jpg",
+                    "contentUrl": "https://rachorg.org/assets/profiles/carol-greider-keith-weller.jpg",
+                    "caption": "Carol Greider, 2014. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license.",
+                    "creator": {
+                      "@type": "Person",
+                      "name": "Keith Weller/Johns Hopkins University School of Medicine",
+                      "url": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg"
+                    },
+                    "creditText": "Keith Weller/Johns Hopkins University School of Medicine, CC BY-SA 4.0. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license.",
+                    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+                    "acquireLicensePage": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg"
+                  },
+                  "dateModified": "2026-10-13",
+                  "inLanguage": "en-US",
+                  "wordCount": 3876,
+                  "articleSection": [
+                    "Longevity and Biotechnology"
+                  ],
+                  "author": {
+                    "@type": "Organization",
+                    "name": "RACH — AI-assisted editorial",
+                    "url": "https://rachorg.org/about-us"
+                  },
+                  "publisher": {
+                    "@id": "https://rachorg.org/#organization"
+                  },
+                  "about": {
+                    "@type": "Person",
+                    "@id": "https://rachorg.org/profiles/carol-greider#subject",
+                    "name": "Carol Greider",
+                    "jobTitle": "Distinguished Professor of Molecular, Cell and Developmental Biology, UC Santa Cruz",
+                    "sameAs": [
+                      "https://mcd.ucsc.edu/people/faculty/carol-greider/",
+                      "https://www.greiderlab.org/"
+                    ]
+                  },
+                  "isPartOf": {
+                    "@type": "CreativeWorkSeries",
+                    "name": "RACH Profiles",
+                    "url": "https://rachorg.org/profiles"
+                  },
+                  "datePublished": "2026-10-13"
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "RACH",
+                      "item": "https://rachorg.org/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Profiles",
+                      "item": "https://rachorg.org/profiles"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "Carol Greider",
+                      "item": "https://rachorg.org/profiles/carol-greider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "portrait": {
+            "width": 2934,
+            "height": 3929
+          }
+        },
+        {
+          "label": "mobile",
+          "canonical": "https://rachorg.org/profiles/carol-greider",
+          "overflow": false,
+          "images": [],
+          "brokenAnchors": [],
+          "sources": 32,
+          "sections": 22,
+          "portraitCredit": "Carol Greider, 2014. Photo: Keith Weller/Johns Hopkins University School of Medicine, via Wikimedia Commons. CC BY-SA 4.0. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license. No endorsement implied.23, 24",
+          "schemas": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "NonprofitOrganization",
+                  "@id": "https://rachorg.org/#organization",
+                  "name": "RACH",
+                  "alternateName": "Recognizing the Achievements and Contributions to Humanity",
+                  "description": "A nonprofit foundation recognizing people whose achievements and contributions make a meaningful difference to humanity.",
+                  "url": "https://rachorg.org",
+                  "logo": "https://rachorg.org/assets/rach-logo.png",
+                  "email": "info@rachorg.org",
+                  "telephone": "+1-202-695-2527",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Washington",
+                    "addressRegion": "DC",
+                    "addressCountry": "US"
+                  },
+                  "sameAs": [
+                    "https://www.facebook.com/rachorgdc",
+                    "https://www.instagram.com/rachorgdc"
+                  ]
+                },
+                {
+                  "@type": "Article",
+                  "@id": "https://rachorg.org/profiles/carol-greider#article",
+                  "mainEntityOfPage": "https://rachorg.org/profiles/carol-greider",
+                  "headline": "Carol Greider: A Life at the Ends of Chromosomes",
+                  "description": "Carol Greider’s life in science: telomerase discovery, laboratory setbacks, shared credit, inherited disease, clinical testing and current chromosome-end research.",
+                  "image": {
+                    "@type": "ImageObject",
+                    "url": "https://rachorg.org/assets/profiles/carol-greider-keith-weller.jpg",
+                    "contentUrl": "https://rachorg.org/assets/profiles/carol-greider-keith-weller.jpg",
+                    "caption": "Carol Greider, 2014. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license.",
+                    "creator": {
+                      "@type": "Person",
+                      "name": "Keith Weller/Johns Hopkins University School of Medicine",
+                      "url": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg"
+                    },
+                    "creditText": "Keith Weller/Johns Hopkins University School of Medicine, CC BY-SA 4.0. Existing lossless crop by Adam Cuerden (2016); RACH retains those file bytes, with CSS sizing, display cropping and mild desaturation only. Display adaptations share the same CC BY-SA 4.0 license.",
+                    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+                    "acquireLicensePage": "https://commons.wikimedia.org/wiki/File:GREIDER_Carol_2014.jpg"
+                  },
+                  "dateModified": "2026-10-13",
+                  "inLanguage": "en-US",
+                  "wordCount": 3876,
+                  "articleSection": [
+                    "Longevity and Biotechnology"
+                  ],
+                  "author": {
+                    "@type": "Organization",
+                    "name": "RACH — AI-assisted editorial",
+                    "url": "https://rachorg.org/about-us"
+                  },
+                  "publisher": {
+                    "@id": "https://rachorg.org/#organization"
+                  },
+                  "about": {
+                    "@type": "Person",
+                    "@id": "https://rachorg.org/profiles/carol-greider#subject",
+                    "name": "Carol Greider",
+                    "jobTitle": "Distinguished Professor of Molecular, Cell and Developmental Biology, UC Santa Cruz",
+                    "sameAs": [
+                      "https://mcd.ucsc.edu/people/faculty/carol-greider/",
+                      "https://www.greiderlab.org/"
+                    ]
+                  },
+                  "isPartOf": {
+                    "@type": "CreativeWorkSeries",
+                    "name": "RACH Profiles",
+                    "url": "https://rachorg.org/profiles"
+                  },
+                  "datePublished": "2026-10-13"
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "RACH",
+                      "item": "https://rachorg.org/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Profiles",
+                      "item": "https://rachorg.org/profiles"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "Carol Greider",
+                      "item": "https://rachorg.org/profiles/carol-greider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "portrait": {
+            "width": 2934,
+            "height": 3929
+          }
+        }
+      ],
+      "wordCount": 3876,
+      "hubCount": 18,
+      "imageSha256": "259357f87d7007d8779015a70a28ec05558e71035a35e8531169baa0451643ef",
+      "errors": [],
+      "passed": true
+    }
   },
   "authorization": "Daily website publication only; no outreach, social posting, account setup, purchases, DNS or unrelated changes",
-  "preserved": "Unrelated untracked assets/ excluded from all staging"
+  "preserved": "Unrelated untracked assets/ excluded from all staging",
+  "publication": {
+    "localDate": "2026-10-13",
+    "url": "https://rachorg.org/profiles/carol-greider/",
+    "releaseCommit": "39cdff0",
+    "workflow": "Push main to existing Cloudflare Pages project rachorg-website",
+    "verifiedAt": "2026-10-13T15:55:17.362Z",
+    "initialResponse": "Initial production 404 during propagation; waited 30 seconds and reran verification without republishing",
+    "result": "PASS actual live article DOM equals authored article; 3876 narrative words; 32 sources; portrait bytes/hash/credit/license; 18-profile hub; sitemap; canonical; Article, Person, ImageObject; no noindex; desktop/mobile; no page errors",
+    "nextCategory": "Artificial Intelligence",
+    "todayNewProfiles": 1
+  }
 }
