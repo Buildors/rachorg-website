@@ -94,7 +94,7 @@ function structuredData(page, canonical) {
       contentUrl: `https://rachorg.org${page.image}`,
       caption: page.imageCaption,
       creator: {
-        "@type": "Person",
+        "@type": page.imageCreatorType || "Person",
         name: page.imageCreator,
         url: page.imageSource
       },

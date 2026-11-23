@@ -548,3 +548,5 @@ input:focus, textarea:focus, select:focus { border-color: var(--gold); box-shado
   .home-hero video { display: none; }
   .home-hero { background: url('/assets/hero-poster.webp') center / cover no-repeat; }
 }
+
+.profile-archive-photo { max-width: 30rem; margin: 2rem auto; }

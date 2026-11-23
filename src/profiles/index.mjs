@@ -17,8 +17,9 @@ import { barbaraLiskov } from "./barbara-liskov.mjs";
 import { anneLacaton } from "./anne-lacaton.mjs";
 import { carolGreider } from "./carol-greider.mjs";
 import { judeaPearl } from "./judea-pearl.mjs";
+import { sergeiRachmaninoff } from "./sergei-rachmaninoff.mjs";
 
-export const profiles = [judeaPearl, carolGreider, anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+export const profiles = [sergeiRachmaninoff, judeaPearl, carolGreider, anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -32,7 +33,7 @@ const profileCards = profiles.map((profile) => `<article class="profile-card">
     <a class="profile-card-image" href="${profile.path}" aria-label="Read the ${profile.title} profile">
       <img src="${profile.image}" alt="${profile.imageAlt}" width="${profile.imageWidth || 1920}" height="${profile.imageHeight || 2879}" loading="lazy"${profile.imagePosition ? ` style="object-position:${profile.imagePosition}"` : ''}>
     </a>
-    <p class="profile-card-image-credit">Photo: <a href="${profile.imageSource}" target="_blank" rel="noreferrer">${profile.imageCreator} (<span class="creator-handle">${profile.imageCreatorAccount}</span>) / Wikimedia Commons</a> — <a href="${profile.imageLicenseUrl}" target="_blank" rel="license noreferrer">${profile.imageLicense}</a>. ${profile.imageDisplayNote}</p>
+    <p class="profile-card-image-credit">Photo: <a href="${profile.imageSource}" target="_blank" rel="noreferrer">${profile.imageCreator}${profile.imageRepository ? ` / ${profile.imageRepository}` : ` (<span class="creator-handle">${profile.imageCreatorAccount}</span>) / Wikimedia Commons`}</a> — <a href="${profile.imageLicenseUrl}" target="_blank" rel="license noreferrer">${profile.imageLicense}</a>. ${profile.imageDisplayNote}</p>
   </div>
   <div class="profile-card-copy">
     <p class="profile-card-meta">${profile.category}${profile.draft ? " · Editorial draft" : ` · Published ${formatDate(profile.datePublished)}`}</p>
