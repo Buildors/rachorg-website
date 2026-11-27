@@ -24,7 +24,9 @@ import { francisKere } from "./francis-kere.mjs";
 
 import { shinyaYamanaka } from "./shinya-yamanaka.mjs";
 
-export const profiles = [shinyaYamanaka, francisKere, timBernersLee, sergeiRachmaninoff, judeaPearl, carolGreider, anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
+import { rajReddy } from "./raj-reddy.mjs";
+
+export const profiles = [rajReddy, shinyaYamanaka, francisKere, timBernersLee, sergeiRachmaninoff, judeaPearl, carolGreider, anneLacaton, barbaraLiskov, yannLeCun, drewWeissman, alejandroAravena, vintCerf, geoffreyHinton, maryClaireKing, annaHeringer, radiaPerlman, feiFeiLi, katalinKariko, shigeruBan, brewsterKahle, yoshuaBengio, davidSinclair, demisHassabis];
 
 const formatDate = (isoDate) => new Intl.DateTimeFormat("en-US", {
   year: "numeric",
